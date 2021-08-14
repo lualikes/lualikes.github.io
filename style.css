@@ -1,0 +1,161 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  font-family:  'Titillium Web', sans-serif;
+ background-color: #F2F5EA; 
+ text-align: center;
+ color:#561D25;
+}
+
+/* STYLE TEXT */
+.writing {
+  font-size: 17px;
+  margin-left: 15%;
+ margin-right: 15%;
+ padding: 10px;
+}
+.header {
+color:#561D25;
+  font-size: 3em;
+  font-family: 'Playfair Display', sans-serif;
+  padding: 10px;}
+#title {
+  padding: 10px;
+}
+#sent {
+  padding: 10px;
+}
+h1 {
+  color:#561D25;
+  font-size: 4em;
+  font-family: 'Playfair Display', sans-serif;
+  padding: 10px;
+}
+#source {
+  padding: 1em;
+}
+.credit {
+padding: 1em;
+color: #561D25;
+}
+.link {
+  font-size: 15px;
+  
+}
+/* STYLE IMAGES */
+#umbrella {
+  width: 30%;
+}
+#hold {
+height: 10%;
+width: 30%;
+}
+#sky {
+  width: 30%;
+}
+
+.issue {
+  width:30%;
+  text-align: right;
+  padding: 1em;
+}
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color:  #D6DBD2;
+  overflow: hidden;
+  padding: .6em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color:  #561D25;
+
+  font-size:1.5em;
+  padding: 1em;
+  }
+
+  li a:hover {
+    background-color: #F2F5EA;
+  }
+a {
+  color:   #561D25;
+
+}
+
+/* STYLE BUTTONS */
+button { 
+  margin-top: 5px;
+   background-color:  #D6DBD2;
+  color: #561D25 ;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+button:active {
+  background-color: #736A8A;;
+  box-shadow: 0 5px gray;
+  transform: translateY(4px);
+}
+/* ADD MORE! */
+.genFact {
+  background: #561D25;
+  color: #F2F5EA;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+margin-top:30px;
+margin-left: 35%;
+margin-right: 35%;  
+margin-bottom: 30px;
+ font-family: 'Rubik', sans-serif;
+}
+
+#fact {
+  font-size: 2em;
+  padding: 1em;
+  font-style: italic; 
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+/* media query */
+
+@media screen and (max-width: 850px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+  p {
+    font-size: 20%;
+  }
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+  p {
+    font-size: 10%;
+  }
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
